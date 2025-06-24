@@ -1,0 +1,27 @@
+#grid{
+    width: 500px;
+    height: 300px;
+    display: flex;/*while arranging cards it should be in the compact position. so we are using flex*/
+    flex-wrap: wrap;
+    
+
+}
+
+img{
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(240, 66, 66);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    bottom: 70px;
+    left: 160px;
+  }
